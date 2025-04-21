@@ -2,16 +2,12 @@ from unicodedata import category
 
 import pandas as pd
 import numpy as np
-from docutils.nodes import document, description
 from dotenv import load_dotenv
-
 from langchain_community.document_loaders import TextLoader
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_chroma import Chroma
-
 import gradio as gr
-from matplotlib.image import thumbnail
 
 load_dotenv()
 
