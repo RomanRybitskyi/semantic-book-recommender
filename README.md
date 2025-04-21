@@ -30,7 +30,7 @@ The dataset is sourced from Kaggle (`dylanjcastillo/7k-books-with-metadata`) and
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/RomanRybitskyi/semantic-book-recommender.git
    cd book-recommender-system
    ```
 
@@ -111,19 +111,7 @@ See `requirements.txt` for a complete list of dependencies. Key libraries includ
 - Optimize semantic search by experimenting with different embedding models.
 - Add support for multiple languages or multilingual embeddings.
 - Enhance the Gradio dashboard with advanced filters (e.g., publication year, page count).
-
-## Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/new-feature`).
-3. Commit changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/new-feature`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+- Add more books to dataset
 
 ## Acknowledgments
 
